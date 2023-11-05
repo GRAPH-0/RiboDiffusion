@@ -1,3 +1,4 @@
+import torch
 
 _MODELS = {}
 
@@ -18,3 +19,9 @@ def register_model(cls=None, *, name=None):
         return _register
     else:
         return _register(cls)
+
+def create_model(config):
+    model = _MODELS[config.model.name](config)
+    model = model.to(config.device)
+    model = torch.nn.DataParallel(model)
+    return model
