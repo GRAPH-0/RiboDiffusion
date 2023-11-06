@@ -9,7 +9,6 @@ import torch
 import torch_geometric
 import torch_cluster
 from scipy.spatial.transform import Rotation
-from biopandas.pdb import PandasPdb
 import os
 import gc
 import pickle

@@ -2,6 +2,9 @@
 
 ## Installation
 
+Please refer to `requirements.txt` for the required packages.
+
+
 Model checkpoint can be downloaded from [here](https://drive.google.com/drive/folders/10BNyCNjxGDJ4rEze9yPGPDXa73iu1skx?usp=drive_link).
 Put the checkpoint file in the `ckpts` folder.
 
