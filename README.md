@@ -1,5 +1,7 @@
 # RiboDiffusion
 
+Tertiary Structure-based RNA Inverse Folding with Generative Diffusion Models
+
 ## Installation
 
 Please refer to `requirements.txt` for the required packages.
